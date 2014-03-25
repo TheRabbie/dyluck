@@ -236,6 +236,7 @@
 		1D6058910D05DD3D006BFB54 /* Dylucks_Edge iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dylucks_Edge iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E26FA4D18E21053004D4928 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Classes/Player.h; sourceTree = "<group>"; };
 		2EBB9B2518E20D5900859322 /* Dyluck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dyluck.cpp; path = ../Classes/Dyluck.cpp; sourceTree = "<group>"; };
 		2EBB9B2918E20D6700859322 /* Dyluck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dyluck.h; path = ../Classes/Dyluck.h; sourceTree = "<group>"; };
 		2EBB9B2A18E20D6700859322 /* GameLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameLoop.cpp; path = ../Classes/GameLoop.cpp; sourceTree = "<group>"; };
@@ -374,6 +375,7 @@
 				2EBB9B3418E20D6700859322 /* LevelFactory.cpp */,
 				2EBB9B3518E20D6700859322 /* LevelFactory.h */,
 				2EBB9B3618E20D6700859322 /* Player.cpp */,
+				2E26FA4D18E21053004D4928 /* Player.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
