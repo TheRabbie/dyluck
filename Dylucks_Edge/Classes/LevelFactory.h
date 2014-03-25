@@ -9,6 +9,17 @@
 #ifndef __Dylucks_Edge__LevelFactory__
 #define __Dylucks_Edge__LevelFactory__
 
-#include <iostream>
+#include "Level.h"
+
+class LevelFactory {
+private:
+	Level level;
+	Level parseLevel(int id);
+public:
+	Level getLevel(int id);
+
+};
+
 
 #endif /* defined(__Dylucks_Edge__LevelFactory__) */
+
