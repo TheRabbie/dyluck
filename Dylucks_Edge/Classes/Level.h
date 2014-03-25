@@ -8,7 +8,11 @@
 
 #ifndef __Dylucks_Edge__Level__
 #define __Dylucks_Edge__Level__
-
-#include <iostream>
+#include "Item.h"
+class Level{
+private:
+	Item levelItems [];
+public:
+};	
 
 #endif /* defined(__Dylucks_Edge__Level__) */

@@ -10,5 +10,13 @@
 #define __Dylucks_Edge__ItemFactory__
 
 #include <iostream>
+#include "Item.h"
+
+class ItemFactory {
+private:
+	Item parseItem();
+public:
+	Item getItem();	
+};
 
 #endif /* defined(__Dylucks_Edge__ItemFactory__) */

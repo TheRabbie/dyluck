@@ -11,4 +11,12 @@
 
 #include <iostream>
 
+class Item {
+public: 
+	void getPhysics();
+	void getSprite();
+	void getPosition();
+};
+	
+
 #endif /* defined(__Dylucks_Edge__Item__) */
