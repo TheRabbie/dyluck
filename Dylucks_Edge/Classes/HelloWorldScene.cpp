@@ -29,6 +29,9 @@ bool HelloWorld::init()
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Point origin = Director::getInstance()->getVisibleOrigin();
+    
+    Player *dy = new Player(origin);
+    this->addChild(dy, 5);
 
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
