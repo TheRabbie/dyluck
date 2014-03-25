@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-set(APP_NAME MyGame)
+set(APP_NAME "Dyluck's Edge")
 project (${APP_NAME})
 
 include(cocos2d/build/BuildHelpers.CMakeLists.txt)
@@ -42,7 +42,14 @@ endif()
 set(GAME_SRC
   proj.linux/main.cpp
   Classes/AppDelegate.cpp
-  Classes/HelloWorldScene.cpp
+  Classes/Dyluck.cpp
+  Classes/GameLoop.cpp
+  Classes/GameScene.cpp
+  Classes/Item.cpp
+  Classes/ItemFactory.cpp
+  Classes/Level.cpp
+  Classes/LevelFactory.cpp
+  Classes/Player.cpp
 )
 
 set(COCOS2D_ROOT ${CMAKE_SOURCE_DIR}/cocos2d)
